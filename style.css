@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10;
+}
+
+.inputGroup{
+    display: flex;
+    padding: 0 50px;
+    width: 100%;
+    gap: 8px;
+}
+
+.inputGroup input{
+    border: 0.5px solid #bdc8c8;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 10px;
+    width: 50%;
+    background-color: #F0FFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.inputGroup input:focus{
+    outline: none;
+}
+
+.inputGroup button{
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0.2px solid #bdc8c8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: #0096FF;
+    color: white;
+}
+
+.Search .status{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.Search img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Search p {
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
